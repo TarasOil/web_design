@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="public/img/icon.png">
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/style.css">
+    <title>Pizzerino - Салати</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-dark fixed-top navbar-expand-lg">
+        <div class="container">
+            <span class="navbar-brand" id="logo">Pizzerino</span>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent" aria-controls="navContent" aria-expanded="false">
+                <img src="public/img/toggle.png" alt="">
+            </button>
+
+            <div id="navContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="promotions.html" class="nav-link">Акції</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Піца</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="salades.html" class="nav-link" style="text-decoration: underline;">Салати</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="drinks.html" class="nav-link">Напої</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="delivery.html" class="nav-link">Доставка</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="carousel-wrapper" style="background-image: url(public/img/bg/salades_background.png);">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+
+            <ul class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+            </ul>
+        
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="public/img/promotion/promotion1.PNG" alt="Цілодобова доставка">
+                </div>
+                <div class="carousel-item">
+                    <img src="public/img/promotion/promotion2.PNG" alt="Chicago">
+                </div>
+                <div class="carousel-item">
+                    <img src="public/img/promotion/promotion3.PNG" alt="New York">
+                </div>
+            </div>
+        
+            <a class="carousel-control-prev" href="#carousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+      </div>
+    </div>
+
+
+    <script src="public/js/jquery.min.js"></script>
+    <script src="public/js/popper.min.js"></script>
+    <script src="public/js/bootstrap.min.js"></script>
+</body>
+</html>

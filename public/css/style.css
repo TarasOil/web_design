@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+
+.navbar{
+    background-color: #ea272d;
+}
+
+#logo{
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.navbar-toggler img{
+    width: 30px;
+}
+
+#navContent .navbar-nav{
+    width: 100%;
+    justify-content: flex-end;
+}
+
+#navContent ul li a{
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif;
+}
+
+.carousel-wrapper, .content{
+    margin-top: 70px;
+    padding: 5% 15% 5% 15%;
+    background: no-repeat;
+    background-size: 100% auto;
+    height: 90vh;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: auto;
+}
