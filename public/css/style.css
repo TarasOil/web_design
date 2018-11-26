@@ -32,7 +32,7 @@ body{
 
 .carousel-wrapper, .content{
     margin-top: 70px;
-    padding: 5% 15% 5% 15%;
+    padding-top: 6%;
     background: no-repeat;
     background-size: 100% auto;
     height: 90vh;
@@ -41,4 +41,29 @@ body{
 .carousel-item img{
     width: 100%;
     height: auto;
+}
+
+.product-wrapper{
+    background-color: whitesmoke; 
+    margin-top: 7%;
+    padding-top: 3%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.product-wrapper h1{
+    text-align: center;
+    color: black;
+    margin-bottom: 2%;
+}
+
+.product-wrapper .container .row .card{
+    padding: 1%;
+    margin-bottom: 1%;
+    border: none;
+    background-color: whitesmoke;
+}
+
+.content .container .row img{
+    width: 100%;
+    margin-bottom: 3%;
 }
