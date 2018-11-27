@@ -30,12 +30,12 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
-.carousel-wrapper, .content{
+.wrapper, .content{
     margin-top: 70px;
     padding-top: 6%;
     background: no-repeat;
     background-size: 100% auto;
-    height: 90vh;
+    height: 91vh;
 }
 
 .carousel-item img{
@@ -63,7 +63,22 @@ body{
     background-color: whitesmoke;
 }
 
-.content .container .row img{
+.content .promotion-wrapper .container .row img{
     width: 100%;
     margin-bottom: 3%;
+}
+
+.footer{
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif;
+    padding: 2%;
+}
+
+.footer .container .row{
+    text-align: center;
+    justify-content: center;
+}
+
+#footer-logo{
+    font-size: 30px;
 }
